@@ -1,0 +1,11 @@
+.clear{
+    background:transparent;
+    border:none;    
+}
+
+.warning{
+    background:rgb(221, 105, 117);
+    font-size:20px;
+    text-align: center;
+    opacity: 1.0;
+}

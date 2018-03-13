@@ -1,0 +1,28 @@
+<div *ngIf="recordDetail" id="emloyee_detail_div">
+
+    <table id="emplyee_detail">
+        <tr>
+            <th colspan="7">{{selectedRecord.FirstName}} {{selectedRecord.LastName}}'s Contact Information</th>
+        <tr>
+        <tr>
+            <td>Address</td>
+            <td>City</td>
+            <td>Region</td>
+            <td>Country</td>
+            <td>PostCode</td>
+            <td>Home Phone</td>
+            <td>Extension</td>
+        </tr>
+        <tr>
+            <td>{{recordDetail.Address}}</td>
+            <td>{{recordDetail.City}}</td>
+            <td>{{recordDetail.Region}}</td>
+            <td>{{recordDetail.PostCode}}</td>
+            <td>{{recordDetail.HomePhone}}</td>
+            <td>{{recordDetail.Extension}}</td>
+            <td>{{recordDetail.Country}}</td>
+        </tr>
+
+    </table>
+
+</div>

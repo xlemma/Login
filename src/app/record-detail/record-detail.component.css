@@ -1,0 +1,33 @@
+#emplyee_detail {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#emplyee_detail td, #emplyee_detail th {
+    border: 1px solid black;
+    padding: 8px;
+    width:30px
+}
+
+#emplyee_detail tr:nth-child(even){background-color: #f2f2f2;}
+
+#emplyee_detail tr:hover {background-color: #ddd;}
+
+#emplyee_detail th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #26A69A;
+    color: white;
+}
+
+#emloyee_detail_div{
+    padding-top:50px;  
+}
+
+.title {
+    width:100%;
+    background-color: #26A69A
+    
+}
